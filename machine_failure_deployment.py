@@ -21,10 +21,9 @@ AQ = st.number_input("AQ")
 USS = st.number_input("USS")
 CS = st.number_input("CS")
 VOC = st.number_input("VOC")
- RP = st.number_input("RP")
- IP = st.number_input("IP")
+RP = st.number_input("RP")
+IP = st.number_input("IP")
 Temperature = st.number_input("Temperature")
- fail = st.number_input("fail")
 
 input_data = pd.DataFrame({
     "footfall": [footfall],
